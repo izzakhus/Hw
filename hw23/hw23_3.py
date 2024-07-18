@@ -23,7 +23,7 @@ class Airplane:
         if new_passengers >= 0:
             self.current_passengers = new_passengers
         else:
-            self.current_passengers = 0  # Устанавливаем количество пассажиров в 0
+            self.current_passengers = 0
             print(f'В самолете {self.model} больше нет пассажиров ')
         return self
 
