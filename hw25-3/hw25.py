@@ -22,7 +22,9 @@ def fetch_all_urls(urls):
 if __name__ == '__main__':
     urls = [
         'https://ru.wikipedia.org/wiki/Python',
-        'https://example.com'
+        'https://mystat.itstep.org/ru/main/dashboard/page/index'
+        'https://www.faceit.com/ru/home'
+        'https://kaspi.kz/'
     ]
     start_time = time.time()
     fetch_all_urls(urls)
